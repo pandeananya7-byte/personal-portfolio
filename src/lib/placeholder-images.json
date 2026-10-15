@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "climate-fellowship",
+      "description": "Climate fellowship",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-4964712736-5774d.firebasestorage.app/o/onepointfive_logo.jpeg?alt=media&token=8e28a3a2-52d4-42de-af6d-26ed3ace7678",
+      "imageHint": "nature environment"
+    },
+    {
+      "id": "sheroes-mentor",
+      "description": "Mentoring session",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-4964712736-5774d.firebasestorage.app/o/Screenshot%202025-10-20%20at%2011.16.04%E2%80%AFPM.png?alt=media&token=ddd28623-9b0e-4985-ba32-1ef300f6bb38",
+      "imageHint": "people community"
+    },
+    {
+      "id": "honest-critique",
+      "description": "Podcast microphone",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-4964712736-5774d.firebasestorage.app/o/New%20Project%20(8).png?alt=media&token=b9bed64b-619f-4531-a3b9-b4995a6187d2",
+      "imageHint": "microphone audio"
+    },
+    {
+      "id": "covid-relief",
+      "description": "Community relief effort",
+      "imageUrl": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWxwaW5nJTIwaGFuZHN8ZW58MHx8fHwxNzYwOTAwMTU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "helping hands"
+    },
+    {
+      "id": "house-of-genius",
+      "description": "Collaborative brainstorming session",
+      "imageUrl": "https://images.unsplash.com/photo-1669477377105-0736689c9935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFtd29yayUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzYwOTgxOTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "teamwork collaboration"
+    },
+    {
+      "id": "bharatx-case-studies",
+      "description": "Case study documents",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-4964712736-5774d.firebasestorage.app/o/logo_black-1-1.svg?alt=media&token=124c73ec-8ec1-45e9-a320-cd38ac865e13",
+      "imageHint": "case study"
+    }
+  ]
+}

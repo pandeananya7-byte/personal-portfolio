@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Day Mode */
+    --background: 45 14% 97%; /* #F8F7F4 */
+    --foreground: 209 33% 16%; /* #1B2936 */
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 209 33% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 209 33% 16%;
+    --primary: 210 47% 41%; /* #38699B */
+    --primary-foreground: 45 14% 97%;
+    --secondary: 206 12% 88%; /* #DDE2E6 */
+    --secondary-foreground: 209 33% 16%;
+    --muted: 206 12% 88%;
+    --muted-foreground: 210 14% 40%; /* #596775 */
+    --accent: 210 47% 41%;
+    --accent-foreground: 45 14% 97%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 206 12% 88%; /* #DDE2E6 */
+    --input: 206 12% 88%;
+    --ring: 210 47% 41%;
+    --radius: 0.25rem;
+  }
+  .dark {
+    /* Night Mode */
+    --background: 213 37% 10%; /* #101923 */
+    --foreground: 60 14% 93%; /* #F0F0EB */
+    --card: 207 30% 15%; /* #1B2833 */
+    --card-foreground: 60 14% 93%;
+    --popover: 207 30% 15%;
+    --popover-foreground: 60 14% 93%;
+    --primary: 198 38% 66%; /* #89B6C9 */
+    --primary-foreground: 213 37% 10%;
+    --secondary: 210 19% 25%; /* #34414D */
+    --secondary-foreground: 60 14% 93%;
+    --muted: 210 19% 25%;
+    --muted-foreground: 209 16% 71%; /* #A8B5C1 */
+    --accent: 198 38% 66%;
+    --accent-foreground: 213 37% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 14% 93%;
+    --border: 210 19% 25%; /* #34414D */
+    --input: 210 19% 25%;
+    --ring: 198 38% 66%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground text-base leading-relaxed font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold tracking-tight text-foreground;
+  }
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-headline {
+  font-family: 'Sora', sans-serif;
+}

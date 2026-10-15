@@ -1,0 +1,8 @@
+{
+  "name": "Portfolio",
+  "description": "Executive portfolio of Ananya Pande - Business Strategy, Growth, Product & Operations",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
